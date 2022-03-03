@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dff9fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   color: #cf6a87;
+}
+#grid{
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);  
+    width: 300px;
+    height: 250px;
+}
+ input{
+    
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#rslt{
+    width: 300px;
+    border: 0;
+    background-color: #cf6a87;
+}
